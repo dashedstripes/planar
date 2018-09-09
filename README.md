@@ -1,6 +1,6 @@
 # Planar
 
-A flat file CMS.
+A flat file CMS. Planar is the least boring name I could come up with.
 
 ## What is this?
 
