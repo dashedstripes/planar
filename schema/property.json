@@ -1,0 +1,18 @@
+{
+  "id": "property",
+  "url": "/properties",
+  "fields": [
+    {
+      "id": "image",
+      "type": "image"
+    },
+    {
+      "id": "description",
+      "type": "text"
+    },
+    {
+      "id": "floorspace",
+      "type": "text"
+    }
+  ]
+}

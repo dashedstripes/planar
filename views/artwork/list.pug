@@ -1,0 +1,10 @@
+extends ../layout.pug
+
+block content
+
+  h1 Artwork
+
+  each object in objects
+    a(href=schema.url + '/' + object.id)
+      h3=object.title
+      img(src="/images/" + object.image, width="250")

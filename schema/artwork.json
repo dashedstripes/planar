@@ -1,0 +1,18 @@
+{
+  "id": "artwork",
+  "url": "/artwork",
+  "fields": [
+    {
+      "id": "image",
+      "type": "image"
+    },
+    {
+      "id": "description",
+      "type": "text"
+    },
+    {
+      "id": "medium",
+      "type": "text"
+    }
+  ]
+}
