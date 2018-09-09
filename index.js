@@ -15,10 +15,10 @@ glob.sync('./schema/*.json').forEach((schemaFile) => {
     let object = require(objectFile)
     objects.push(object)
 
-    app.get(`${schema.url}/${object.id}`, (req, res) => res.render(`${schema.id}/single`, { object }))
+    app.get(`${schema.url}/${object.id}`, (req, res) => res.render(`objects/${schema.id}/single`, { object }))
   })
 
-  app.get(schema.url, (req, res) => res.render(`${schema.id}/list`, { schema, objects }))
+  app.get(schema.url, (req, res) => res.render(`objects/${schema.id}/list`, { schema, objects }))
 })
 
 app.listen(3000, () => console.log('http://localhost:3000'))
